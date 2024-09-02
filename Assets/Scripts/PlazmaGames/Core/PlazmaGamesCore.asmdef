@@ -1,0 +1,16 @@
+{
+    "name": "PlazmaGamesCore",
+    "rootNamespace": "PlazmaGames.Core",
+    "references": [
+        "GUID:578efba921b0add4286e0b4b91cd03fa"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
