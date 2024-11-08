@@ -218,7 +218,7 @@ namespace PawsOfFire.MonoSystem
         public void StartMusic()
         {
             _musicSource.PlayOneShot(_musicSounds[0].audio);
-            _musicSource.PlayDelayed(_musicSounds[0].audio.length);
+           _musicSource.PlayDelayed(_musicSounds[0].audio.length);
         }
 
         private void Start()
@@ -234,7 +234,8 @@ namespace PawsOfFire.MonoSystem
         //private void Update()
         //{
         //    _audioStartTime += Time.deltaTime;
-        //    if (_audioStartTime >= _musicSounds[0].audio.length && !_isPlaying) {
+        //    if (_audioStartTime >= _musicSounds[0].audio.length && !_isPlaying)
+        //    {
         //        _musicSource.Play();
         //        _isPlaying = true;
         //    }
